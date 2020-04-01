@@ -1,0 +1,27 @@
+.vf-bot-background{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(44, 48, 83);
+    background-size: 40px 40px;
+    background-image:
+    linear-gradient(to right, rgb(53, 59, 90) 0.095em, transparent 1px),
+    linear-gradient(to bottom, rgb(53, 59, 90) 0.095em, transparent 1px);
+}
+
+.vf-bot-center-trans-background{
+    position: absolute;
+    background-color: rgb(115, 126, 165);
+    opacity: 0.3;
+    width: calc(100% - 50px);
+    height: 500px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    background: 
+    //linear-gradient(-90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px), 
+    //linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), 
+    linear-gradient(-90deg, #fffcfc8a 0.1em, transparent 1px), 
+    linear-gradient(#fffcfc8a 0.1em, transparent 1px),rgb(115, 126, 165);
+    //background-size: 20px 20px, 20px 20px, 80px 80px, 80px 80px, 80px 80px, 80px 80px, 80px 80px, 80px 80px;
+    background-size: 80px 80px;
+}

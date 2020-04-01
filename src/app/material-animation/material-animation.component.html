@@ -1,0 +1,12 @@
+<div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
+    <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+  </div> 
+  <button class="btn btn-primary" (click)="toggle()">Click here to toggle</button>
+  <ng-container>
+    <app-bar-chart></app-bar-chart>
+  </ng-container>
+  <ng-container>
+    <app-bar-chart></app-bar-chart>
+  </ng-container>
+  
+  

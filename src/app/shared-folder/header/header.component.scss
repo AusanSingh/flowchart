@@ -1,0 +1,37 @@
+.navbar.navbar-light{
+    background-color: #e3f2fd;
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 1px 2px 2px #00000030;
+    z-index: 9;
+}
+.navbar-brand{
+    padding: 5px;
+    box-shadow: 0px 1px 4px 2px #ccc;
+    border-radius: 5px;
+}
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown.show .dropdown-menu.show { /* For Bootstrap 4, use .dropdown.show instead of .dropdown.open */
+    max-height: 300px;
+    opacity: 1;
+
+}
+
+@media screen and (max-width:754px){
+    .navbar-nav li,.dropdown-menu.show a{
+        text-align: right;
+    }
+}

@@ -1,0 +1,21 @@
+.vf-bot-background {
+  position: relative;
+  height: 100vh;
+  background-color: #2c3053;
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, #353b5a 0.095em, transparent 1px),
+    linear-gradient(to bottom, #353b5a 0.095em, transparent 1px);
+}
+.vf-bot-center-trans-background {
+  position: absolute;
+  background-color: #737ea5;
+  opacity: 0.3;
+  width: calc(100% - 50px);
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(-90deg, #fffcfc8a 0.1em, transparent 1px),
+    linear-gradient(#fffcfc8a 0.1em, transparent 1px), #737ea5;
+  background-size: 80px 80px;
+}
